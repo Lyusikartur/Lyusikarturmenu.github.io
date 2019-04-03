@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: #000000;
+	color: #ffffff;
+}
+@media (min-width: 768px){
+ 	
+ 	header p{
+	
+	font-size: 30px;
+	letter-spacing: -0.51px;
+	font-weight: 400;
+	margin-top: 26px;
+	
+}
+header img{
+	float: left;
+	margin-top: 26px;
+	margin-bottom: 26px;
+	margin-right: 5px;
+}
+.header_a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
+	padding-left: 50px;
+	margin-top: 15px;
+}
+.header_li{
+	display: flex;
+	margin-left: -50px;
+}
+header button{
+	float: right;
+	border: 2px solid #ffc000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-transform: uppercase;
+	border-radius: 30px;
+	background-color: #000;
+	color: #ffffff;
+	font-size: 12px;
+	margin-top: 22px;
+	font-weight: 400;
+}
+.burg-menu{
+	display: none;
+}
+.mobl_menu{
+	display: none;
+}
+
+}
+ @media (max-width: 768px) {
+ 	
+.mobl_menu-p{
+	font-size: 30px;
+	margin-left: 35px;
+}
+.mobl_menu_li{
+	display: flex;
+}
+.mobl_menu_a{
+		text-decoration: none;
+	font-size: 25px;
+	font-weight: 400;
+	color: #ffffff;
+	
+	margin-top: 15px;
+}
+.mobl_menu_li:hover{
+ 	background-color: red;
+ 	margin-left: -35px;
+ }
+ .burg{
+ 	width: 98%;
+ 	background: #232323
+ 	padding: 7.5px 0 7.5px 2%;
+
+
+ }
+ .burg a{
+ 	display: block;
+ 	width: 60px;
+
+ }
+span{
+display: flex;
+margin: 8px;
+width: 30px;
+height: 1px;
+z-index: 999;
+background: #C3C3C3;
+
+
+}
+
+.comp_menu{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
