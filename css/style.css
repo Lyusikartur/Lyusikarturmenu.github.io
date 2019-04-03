@@ -1,65 +1,637 @@
 body{
 	margin: 0;
-	padding: 0;
 }
+
 header{
-	background: #000000;
-	color: #ffffff;
-}
-@media (min-width: 768px){
- 	
- 	header p{
-	
-	font-size: 30px;
-	letter-spacing: -0.51px;
-	font-weight: 400;
-	margin-top: 26px;
-	
+
+background-color: #000;
+color: #fff
 }
 header img{
-	float: left;
-	margin-top: 26px;
-	margin-bottom: 26px;
-	margin-right: 5px;
+float: left;
+margin-top: 27px;
+/* Style for "Polygon 3" */
+max-width: 31px;
+margin-right: 10px;
+
 }
-.header_a{
-	text-decoration: none;
-	font-size: 18px;
-	font-weight: 400;
-	color: #ffffff;
-	padding-left: 50px;
-	margin-top: 15px;
+header p{
+color: #ffffff;
+font-family: Poppins;
+font-size: 32px;
+font-weight: 400;
+/* Text style for "A, dvertin" */
+margin-top: 17px;
+
+
 }
-.header_li{
+header a{
+	/* Style for "About" */
+
+color: #ffffff;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+text-decoration: none;
+margin-left: 50px;
+margin-top: 12px;
+}
+header li{
 	display: flex;
 	margin-left: -50px;
+
 }
-header button{
+
+.button-header{
+padding-left: 40px;
+padding-right: 40px;
+    height: 36px;
+    border: 2px solid #ffc000;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+ 
+ header button:hover{
+ 	background-color: red;
+ 	color: #ffc000;
+ }
+.button-class{
+margin-top: 22px;
+max-height: 36px;
+}
+.Adverting{
+	/* Style for "bg" */
+
+background-color: #121212;
+text-align: left;
+
+}
+.Adverting-text{
+	/* Style for "We'll Prom" */
+
+color: #ffffff;
+font-family: Poppins;
+font-size: 60px;
+font-weight: 400;
+/* Text style for "W, e'll Pr" */
+letter-spacing: -1.03px;
+padding-top: 80px;
+}
+.Adverting-h1{
+margin-top: -100px;
+
+color: #ffc000;
+font-family: 'Indie Flower', cursive;
+letter-spacing: -4.36px;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 170px;
+}
+.Adverting-text2{
+	/* Style for "With a lon" */
+margin-top: -130px;
+
+color: #ffffff;
+font-family: 'Poppins';
+font-size: 24px;
+font-weight: 400;
+line-height: 46px;
+
+
+margin-bottom: 190px;
+}
+.About{
+text-align: center;
+
+background-color: #ffffff;
+background: url(../img/section-2.png)no-repeat  top / cover;
+}
+.img-About{
+	/* Style for "Color Fill" */
+height: 500px;
+background-color: #000000;
+margin-top: 60px;
+margin-bottom: 100px;
+}
+.About-h1{
+/* Style for "About Us" */
+
+
+color: #000000;
+font-family: 'Poppins';
+font-size: 60px;
+font-weight: 700;
+line-height: 46px;
+/* Text style for "About Us" */
+letter-spacing: -3px;
+margin-top: 109px;
+}
+.About-text{
+margin-top: 46px;
+
+color: #666666;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 34px;
+
+
+
+}
+.portfolio1{
+text-align: center;
+
+background-color: #000000;
+}
+.portfolio1-img{
+margin-top: 120px;
+
+}
+.portfolio1-text1{
+/* Style for "Decades of" */
+margin-top: 43px;
+
+color: #ffffff;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+/* Text style for "Decades of" */
+letter-spacing: -0.75px;
+}
+.portfolio1-text2{
+
+color: #b6b6cd;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+margin-top: 31px;
+margin-bottom: 80px;
+}
+.Services{
+
+margin-bottom: 150px;
+background-color: #ffffff;
+}
+.Services-h1{
+/* Style for "Services W" */
+
+
+color: #000000;
+font-family: Poppins;
+font-size: 60px;
+font-weight: 700;
+line-height: 46px;
+/* Text style for "Services W" */
+letter-spacing: -3px;
+text-align: center;
+margin-top: 100px;
+}
+.Services-p1{
+/* Style for "Over the y" */
+text-align: center;
+
+color: #666666;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 34px;
+margin-top: 44px;
+margin-bottom: 50px;
+}
+.Icon{
+	float: left;
+	margin-bottom: 80px;
+	margin-top: 15px;
+	margin-right: 30px;
+	display: block;
+}
+.Services-img1{
+	/* Style for "Forma 1" */
+width: 56px;
+height: 56px;
+margin-left: 10px;
+}
+.Services-img2{
+	/* Style for "Forma 1" */
+width: 60px;
+height: 54px;
+margin-left: 7px;
+}
+.Services-img3{
+	/* Style for "Forma 1" */
+width: 60px;
+height: 51px;	
+margin-left: 8px;
+}
+.Services-img4{
+	/* Style for "Forma 1" */
+width: 36px;
+height: 60px;
+margin-left: 30px;
+}
+.Services-img5{
+	
+	/* Style for "Forma 1" */
+width: 55px;
+height: 53px;
+margin-left: 13px;
+}
+.Services-img6{
+/* Style for "Forma 1" */
+width: 46px;
+height: 60px;	
+margin-left: 20px;
+}
+.Services-p2{
+	/* Style for "Content Ma" */
+
+color: #000000;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 46px;
+/* Text style for "Content Ma" */
+letter-spacing: -0.6px;
+}
+.Services-p3{
+	/* Style for "Creating c" */
+
+color: #aaaaaa;
+font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+margin-top: -10px;
+}
+.Meet{
+
+background-color: #ffcf3c;
+text-align: center;
+padding-bottom: 180px;
+}
+.Meet-h1{
+	/* Style for "Meet the T" */
+
+
+color: #000000;
+font-family: "Myriad Pro";
+font-size: 60px;
+font-weight: 400;
+line-height: 46px;
+/* Text style for "Meet the T" */
+letter-spacing: -3px;
+padding-top: 82px;
+}
+.Meet-p1{
+	/* Style for "Without th" */
+
+
+color: #000000;
+font-family: "Myriad Pro";
+font-size: 18px;
+font-weight: 400;
+line-height: 34px;
+
+}
+
+.Meet-img-1{
+	width: 100%; 
+}
+.Meet1{
+/* Style for "bg" */
+
+background-color: #ffffff;
+border-radius: 10px;
+margin-left: -10px;
+}
+.Meet-p2{
+	margin-top: 50px;
+
+color: #000000;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 46px;
+/* Text style for "Alex Buoye" */
+letter-spacing: -0.6px;
+}
+.Meet-p3{
+margin-top:-42px;
+
+color: #ffc000;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 600;
+line-height: 46px;
+text-transform: uppercase;
+/* Text style for "UI/UX Desi" */
+letter-spacing: 2.4px;
+}
+.Meet-p4{
+	
+
+color: #aaaaaa;
+font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+margin-left: 30px;
+margin-top: -10px;
+}
+.Meet-img{
+margin-top: 20px;
+padding-bottom: 30px;
+}
+.Meet-img-img{
+	margin: 15px;
+}
+.Email{
+
+background-color: #020202;
+}
+.Email-h1{
+text-align: center;
+
+color: #ffc000;
+font-family: Poppins;
+font-size: 60px;
+font-weight: 400;
+line-height: 46px;
+/* Text style for "Sign Up fo" */
+color: #ffffff;
+letter-spacing: -3px;
+/* Text style for "Email Upda" */
+letter-spacing: -3px;
+margin-top: 106px;
+}
+.Email-p1{
+	/* Style for "Knowing ab" */
+text-align: center;
+
+color: #ffffff;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 34px;
+margin-top: -10px;
+}
+.Email-h1-1{
+	color: #ffc000;
+}
+
+footer{
+margin-top: -15px;
+padding-bottom: 15px;
+
+background-color: #ffffff;
+}
+
+footer p{
+
+color: #000000;
+
+font-size: 14px;
+
+line-height: 26px;
+/* Text style for "2, 017 © ," */
+font-family: "Poppins - Light";
+font-weight: 300;
+/* Text style for "Adverting" */
+font-family: Poppins;
+font-weight: 400;
+padding-top: 25px;
+}
+.Email-button{
+/* Style for "Rectangle" */
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 7px;
+padding-bottom: 6px;
+
+background-color: #ffc000;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+/* Style for "Submit" */
+border: none;
+color: #ffffff;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 46px;
+text-transform: uppercase;
+/* Text style for "S, ubmit" */
+letter-spacing: -0.9px;
+
+height: 100%;
+margin-left: -10px;
+}
+.Email-button:hover{
+	background-color: red;
+	color: #000
+}
+
+section input{
+	margin-left: 200px;
+padding-right: 250px;
+font-size: 18px;
+border: none;
+font-family: Poppins;
+color: #aaaaaa;
+padding-bottom: 16px;
+padding-top: 16px;
+padding-left: 40px;
+margin-bottom: 16px;
+font-weight: 400;
+background-color: #ffffff;
+border-top-left-radius: 30px;
+border-bottom-left-radius: 30px;
+margin-bottom: 50px;
+}
+.Email.ru{
+	display: block;
+
+}
+.Email-p1{
+	margin-bottom: 65px;
+}
+.footer-img{
+
+	display: flex;
 	float: right;
-	border: 2px solid #ffc000;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 30px;
-	padding-left: 30px;
-	text-transform: uppercase;
-	border-radius: 30px;
-	background-color: #000;
-	color: #ffffff;
-	font-size: 12px;
-	margin-top: 22px;
-	font-weight: 400;
+	margin-top: -35px;
 }
-.burg-menu{
-	display: none;
+.footer-img1{
+margin-left: 35px;
 }
-.mobl_menu{
-	display: none;
+@media(max-width: 1200px){
+header a{
+	margin-left: 30px;
+}
+
+.button-header{
+font-size: 10px;
+}	
+header{
+	padding-top: -10px;
+}
+.Icon{
+	
+	margin-bottom: 160px;
+	
+}
+
+.Services-p2{
+	font-size: 18px;
+}
+.Meet-p4{
+	padding-right: 20px;
+}
+section input{
+	margin-left: 120px;
+	padding-right: 250px;
+	margin-bottom: 60px;
+}
+}
+@media(max-width: 992px){
+.porfolio-block1{
+	float: top;
+	display: block;
+}
+
+.porfolio-block2{
+
+}
+
+
+
+
+	.title-adv{
+		font-size: 20px;
+		margin-top: 25px;
+	}
+header ul{
+	margin-left: -24px;
+}
+header a{
+	font-size: 14px;
+}
+.button-header{
+	font-size: 8px;
+	max-height: 30px;
+	display: block;
+	padding: 5px 25px;
+}
+.Adverting-text{
+	font-size: 40px;
+	margin-top: -20px;
+}
+.Adverting-h1{
+	font-size: 130px;
+	margin-top: -40px;
+}
+.Adverting-text2{
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.portfolio1-img{
+	margin-top: 70px;
+}
+.About-h1{
+	font-size: 50px;
+	margin-top: 30px;
+}
+.About-text{
+	margin-top: 20px;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+.img-About{
+	height: 400px;
+}
+.portfolio1-img{
+	margin-top: 40px;
+}
+.portfolio1-text1{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.portfolio1-text2{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.Services-h1{
+	font-size: 45px;
+	margin-top: 30px;
+}
+.Services-p1{
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.Icon{
+	margin-bottom: 30px;
+
+}
+.Services-p2{
+	margin-top: -5px;
+}
+.Services-p3{
+	margin-top: -25px;
+
+}
+.Services{
+	margin-bottom: 50px;
+}
+.Meet-h1{
+	padding-top: 50px;
+}
+.Meet-h1{
+	margin-top: 10px;
+}
+.Meet1{
+	margin: 30px;
+}
+.Meet-p2{
+	margin-top: 20px;
+	font-size: 30px;
+}
+.Meet-p2{
+	margin-top: 20px;
+}
+.Email-h1-1{
+	font-size: 45px;
+
+}
+.Email-p1{
+margin-top: -20px;
+}
+
+.Email-ru{
+	margin-top: -20px;
+}
+.Email{
+	margin-bottom: -70px;
+}
+section input{
+padding-right: 180px;
+	margin-left: 30px;
+	margin-bottom: 100px;
 }
 
 }
- @media (max-width: 768px) {
- 	
-.mobl_menu-p{
+@media(max-width: 768px){
+
+
+
+
+	.comp_menu{
+		display: none;
+	}
+	.mobl_menu-p{
 	font-size: 30px;
 	margin-left: 35px;
 }
@@ -72,7 +644,7 @@ header button{
 	font-weight: 400;
 	color: #ffffff;
 	
-	margin-top: 15px;
+
 }
 .mobl_menu_li:hover{
  	background-color: red;
@@ -92,17 +664,189 @@ header button{
  }
 span{
 display: flex;
-margin: 8px;
+margin: 6px;
 width: 30px;
-height: 1px;
+height: 2px;
 z-index: 999;
 background: #C3C3C3;
 
 
 }
 
-.comp_menu{
+.img-About{
+	height: 300px;
+}
+.title-adv{
+	text-align: center;
+}
+header ul{
+	margin-left: 30px;
+	margin-top: -20px;
+}
+header button{
+	margin-left: 215px;
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+.Adverting-text{
+	margin-top: -45px;
+}
+.Adverting-h1{
+	font-size: 100px;
+
+}
+.Adverting-text2{
+	font-size: 17px;
+	padding-top: 20px;
+
+}
+.portfolio1-img{
+	margin-top: 30px;
+}
+.portfolio1-text1{
+	font-size: 18px;
+	margin-top: 10px;
+}
+.portfolio1-text2{
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+.portfolio1{
+	padding-bottom: 40px;
+}
+.Meet{
+	padding-bottom: 30px;
+}
+.Email-h1{
+	margin-top: 40px;
+}
+.Email-p1{
+	font-size: 15px;
+	margin-top: -25px;
+}
+section input{
+padding-right: 80px;
+}
+.Email-button{
+	padding-right: 40px;
+	padding-left: 40px;
+}
+}
+@media(max-width: 576px){
+	.img-About{
+	height: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.Email-button{
+font-size: 11px;
+padding-bottom: 2px;
+padding-top:1px;
+padding-right: 5px;
+padding-left: 5px;
+}
+.Email-h1{
+	font-size: 40px;
+}
+.Email-h1-1{
+	font-size: 40px;
+}
+section input{
+font-size: 11px;
+margin-left: 40px;
+padding-right: 20px;
+padding-left: 20px;
+}
+.Email-p1{
+	line-height: 20px;
+}
+.Icon{
+	margin-bottom: 90px;
+
+}
+.Adverting-h1{
+	font-size: 60px;
+	margin-bottom: 80px;
+}
+header a{
+	margin-left: 7px;
+	font-size: 12px;
+}
+.title-adv{
+	padding-right: 0px;
+}
+.button-class{
+	margin-left: -110px;
+}
+.Adverting-text2{
+	padding-top: 40px;
+	font-size: 10px;
+	line-height: 190%;
+}
+footer p{
+	font-size: 10px;
+}
+.footer-img1{
+	margin-left: 20px;
+}
+.Adverting-text2{
+	line-height: 20px;
+}
+.Services-h1{
+	font-size: 28px;
+}
+.Content-Marketing{
+	margin-top: 30px;
+}
+.Services-p1{
+	margin-top: -20px;
+	line-height: 30px;
+}
+.Meet-p2{
+	font-size: 22px;
+}
+header p{
+	margin-left: -20px;
+}
+header ul{
+	margin-left: 60px;
+
+}
+header button{
+	margin-left: 240px;
+}
+.Meet-p1{
+	line-height: 20px;
+	
+}
+.Meet-h1{
+	margin-bottom: 10px;
+	font-size: 36px;
+}
+.Meet-p1 br{
 	display: none;
+
+}
+.Meet1{
+	margin: 0;
+	margin-bottom: 20px;
+}
+.Services-p1 br{
+display: none;
+}
+.Services-p1{
+	font-size: 14px;
+	line-height: 22px;
+}
+.About-text{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.About{
+background: #ffffff;
+}
 }
 
 
@@ -120,4 +864,19 @@ background: #C3C3C3;
 
 
 
- }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
